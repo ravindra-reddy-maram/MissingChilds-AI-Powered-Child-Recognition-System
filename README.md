@@ -10,13 +10,13 @@ A **smart missing child identification platform** built with Django and Deep Lea
 
 ## 🛠️ Tech Stack
 
-| Layer        | Technology                 |
-|-------------|----------------------------|
-| **Backend** | Django, Python             |
-| **AI Models** | ResNet, VGG16, OpenCV (Haar Cascades) |
-| **Database** | SQLite / Text-based (DB.txt) |
-| **Frontend** | Django Templating, Bootstrap (optional) |
-| **Others**   | Haarcascade XML, NumPy, Torch |
+| Layer         | Technology                              |
+| ------------- | --------------------------------------- |
+| **Backend**   | Django, Python                          |
+| **AI Models** | ResNet, VGG16, OpenCV (Haar Cascades)   |
+| **Database**  | SQLite / Text-based (DB.txt)            |
+| **Frontend**  | Django Templating, Bootstrap (optional) |
+| **Others**    | Haarcascade XML, NumPy, Torch           |
 
 ---
 
@@ -33,6 +33,7 @@ A **smart missing child identification platform** built with Django and Deep Lea
 
 ## 📁 Project Structure
 
+```
 MissingChilds/
 ├── MissingChild/
 │   ├── __init__.py
@@ -47,31 +48,32 @@ MissingChilds/
 ├── manage.py
 ├── SCREENS.docx                         # UI screenshots
 └── MODIFIED_SCREENS.docx               # Updated UI
-
+```
 
 ## 📃Documentation
+
 🚀 Getting Started
+
 1. Clone the Repository
-git clone [https://github.com/yourusername/MissingChilds.git](https://github.com/yourusername/MissingChilds.git)
+   git clone [https://github.com/yourusername/MissingChilds.git](https://github.com/yourusername/MissingChilds.git)
 
 cd MissingChilds
 
 2. Set Up the Environment
-python -m venv venv
+   python -m venv venv
 
 source venv/bin/activate  # For Windows: venv\Scripts\activate
 
 pip install -r requirements.txt  # Create if missing
 
 3. Run the Server
-python manage.py runserver
+   python manage.py runserver
 
 4. Test the Model
-python test.py
-
-
+   python test.py
 
 ## 🤖 Model Insights
+
 VGG16 and ResNet architectures are used for high-accuracy facial recognition.
 
 Models are integrated using torch and OpenCV.
@@ -79,6 +81,7 @@ Models are integrated using torch and OpenCV.
 Preprocessing, encoding, and matching is handled in vgg16.py and resnet.py.
 
 ## 📌 Future Enhancements
+
 Migrate database to PostgreSQL or MongoDB
 
 Improve model training with larger datasets
@@ -88,6 +91,7 @@ Deploy on Heroku/AWS
 Add user authentication and image approval flow
 
 ## 🙌 Contributing
+
 Fork this repository.
 
 Create your feature branch (git checkout -b feature/yourFeature).
@@ -99,4 +103,5 @@ Push to the branch (git push origin feature/yourFeature).
 Create a new Pull Request.
 
 ## 📄 License
+
 This project is licensed under the MIT License.
